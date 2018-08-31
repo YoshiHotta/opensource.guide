@@ -1,31 +1,31 @@
-en:
-  locale_name: English
+ja:
+  locale_name: Japanese
   nav:
     about: About
-    contribute: Contribute
+    contribute: 貢献するには
   index:
-    lead: Open source software is made by people just like you. Learn how to launch and grow your project.
-    opensourcefriday: It's Friday! Invest a few hours contributing to the software you use and love
+    lead: オープンソースソフトはあなたのような人によって作られています。ロジェクトの始め方と育て方を学びましょう。
+    opensourcefriday: 今日は金曜日！数時間を普段使っている好きなソフトウェアへの貢献に使いましょう。
   article:
-    table_of_contents: Table of Contents
-    back_to_all_guides: Back to all guides
-    related_guides: Related Guides
+    table_of_contents: 目次
+    back_to_all_guides: 全てのガイドへ戻る
+    related_guides: 関連するガイド
   footer:
     contribute:
-      heading: Contribute
-      description: Want to make a suggestion? This content is open source. Help us improve it.
-      button: Contribute
+      heading: 貢献する
+      description: 提案をしたいですか？このコンテンツはオープンソースです。改善を手伝ってください。
+      button: 貢献する
     subscribe:
-      heading: Stay in touch
-      description: Be the first to hear about GitHub's latest open source tips and resources.
-      label: Email Address
-      button: Subscribe
+      heading: 更新通知
+      description: Githubの最新のヒントと資料をすぐに知ろう。
+      label: メールアドレス
+      button: 登録
     byline:
       # [code], [love], and [github] will be replaced by octicons
-      format: "[code] with [love] by [github] and [friends]"
+      format: "[github] と [friends] より[code] を [love] をこめて"
       # Label for code octicon
-      code_label: code
+      code_label: コード
       # Label for love octicon
-      love_label: love
+      love_label: 愛
       # Label for the contributors link
-      friends_label: friends
+      friends_label: 友だち
