@@ -1,14 +1,14 @@
 ---
-lang: en
-title: Starting an Open Source Project
-description: Learn more about the world of open source and get ready to launch your own project.
+lang: ja
+title: オープンソースプロジェクトを始める
+description: オープンソースの世界をもっと学んでプロジェクトを始める準備をします。
 class: beginners
 toc:
-  the-what-and-why-of-open-source: "The what and why of open source"
-  should-i-launch-my-own-open-source-project: "Should I launch my own open source project?"
-  launching-your-own-open-source-project: "Launching your own open source project"
-  naming-and-branding-your-project: "Naming and branding your project"
-  your-pre-launch-checklist: "Your pre-launch checklist"
+  the-what-and-why-of-open-source: ""オープンソースの何となぜ"
+  should-i-launch-my-own-open-source-project: "オープンソースプロジェクトを始めるべきか"
+  launching-your-own-open-source-project: "オープンソースプロジェクトを始める"
+  naming-and-branding-your-project: "プロジェクトの命名とブランディング"
+  your-pre-launch-checklist: "始める前のチェックリスト"
 order: 2
 image: /assets/images/cards/beginner.png
 related:
@@ -18,50 +18,50 @@ related:
 
 ## The "what" and "why" of open source
 
-So you're thinking about getting started with open source? Congratulations! The world appreciates your contribution. Let's talk about what open source is and why people do it.
+オープンソースを始めようかと考えていますか？おめでとうございます！世界中があなたの貢献に感謝します。オープンソースとは何か、なぜみんながオープンソース活動をするかをこれから説明します。
 
-### What does "open source" mean?
+### オープンソースとはどういうことか
 
-When a project is open source, that means **anybody can view, use, modify, and distribute your project for any purpose.** These permissions are enforced through [an open source license](https://opensource.org/licenses).
+プロジェクトがオープンソースということは **誰でも見ることができ、使うことができ、どんな理由であれプロジェクトに貢献できる** ということです。これらのことは [オープンソースライセンス](https://opensource.org/licenses) で許可されています。
 
-Open source is powerful because it lowers the barriers to adoption, allowing ideas to spread quickly.
+オープンソースはパワフルです。なぜなら採用のハードルを下げ、アイデアが速やかに拡散できるようになるからです。
 
-To understand how it works, imagine your friend is having a potluck, and you bring a cherry pie.
+どういうことか理解するために友だちがあり合わせの料理を持っていて、あなたがチェリーパイを持ってきたことを考えましょう。
 
-* Everybody tries the pie (_use_)
-* The pie is a hit! They ask you for the recipe, which you provide (_view_)
-* One friend, Alex, who's a pastry chef, suggests reducing the sugar (_modify_)
-* Another friend, Lisa, asks to use it for a dinner next week (_distribute_)
+* みんなパイを味見したい (_使う_)
+* パイがウケた！友だちはあなたにレシピを聞く (_見る_)
+* 菓子職人をやっている友だちのアレックスが砂糖を減らしてみてはと提案する (_変更_)
+* 友だちのリサが来週の晩ご飯に使わせてと言う (_配布_)
 
-By comparison, a closed source process would be going to a restaurant and ordering a slice of cherry pie. You must pay a fee to eat the pie, and the restaurant probably won't give you their recipe. If you copied their pie exactly and sold it under your own name, the restaurant could take action against you.
+一方でクローズドソースはレストランに行ってチェリーパイを頼むようなものです。パイを食べるにはお金を払わないといけませんし、レストランはレシピを教えてくれないでしょう。パイをそっくり真似して自分の名前で売ったらレストランはあなたに対して何らかの措置を取るでしょう。
 
-### Why do people open source their work?
+### なぜ仕事をオープンにするか？
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/kentcdodds?s=180" class="pquote-avatar" alt="avatar">
-  One of the most rewarding experiences I get out of using and collaborating on open source comes from the relationships that I build with other developers facing many of the same problems I am.
+  自分と同じ問題に直面している開発者との関係を築けることがオープンソースを使ったりオープンソースに貢献していて報わたなと感じることの一つです。
   <p markdown="1" class="pquote-credit">
 — @kentcdodds, ["How getting into Open Source has been awesome for me"](https://medium.com/@kentcdodds/how-getting-into-open-source-has-been-awesome-for-me-8480cd756a80#.pjt9oqp4w)
   </p>
 </aside>
 
-[There are many reasons](https://ben.balter.com/2015/11/23/why-open-source/) why a person or organization would want to open source a project. Some examples include:
+個人や法人がプロジェクトをオープンソースにしたい理由は[沢山あります](https://ben.balter.com/2015/11/23/why-open-source/)。例として以下が挙げられます。
 
-* **Collaboration:** Open source projects can accept changes from anybody in the world. [Exercism](https://github.com/exercism/), for example, is a programming exercise platform with over 350 contributors.
+* **コラボ:** オープンソースは世界中の人からの変更を受け入れることができます。例えば[Exercism](https://github.com/exercism/) は350人以上のコントリビューターがいるプログラミングの練習のプラットフォームです。
 
-* **Adoption and remixing:** Open source projects can be used by anyone for nearly any purpose. People can even use it to build other things. [WordPress](https://github.com/WordPress), for example, started as a fork of an existing project called [b2](https://github.com/WordPress/book/blob/master/Content/Part%201/2-b2-cafelog.md).
+* **採用、混ぜる:** オープンソースプロジェクトは誰でも、ほとんど如何なる理由でも使うことができます。他のものを作るのに使うことさえできます。例えば [WordPress](https://github.com/WordPress) は [b2](https://github.com/WordPress/book/blob/master/Content/Part%201/2-b2-cafelog.md) という既存のプロジェクトの fork として始まりました。
 
-* **Transparency:** Anyone can inspect an open source project for errors or inconsistencies. Transparency matters to governments like [Bulgaria](https://medium.com/@bozhobg/bulgaria-got-a-law-requiring-open-source-98bf626cf70a) or the [United States](https://sourcecode.cio.gov/), regulated industries like banking or healthcare, and security software like [Let's Encrypt](https://github.com/letsencrypt).
+* **透明性:** エラーや一貫性を誰でも調べることができます。透明性は[ブルガリア](https://medium.com/@bozhobg/bulgaria-got-a-law-requiring-open-source-98bf626cf70a) や [アメリカ](https://sourcecode.cio.gov/)のような政府、銀行やヘルスケアのような規制がある産業、[Let's Encrypt](https://github.com/letsencrypt) のようなセキュリティーソフトで重要です。
 
-Open source isn't just for software, either. You can open source everything from data sets to books. Check out [GitHub Explore](https://github.com/explore) for ideas on what else you can open source.
+オープンソースはソフトウェアに限りません。データセットでも本でもオープンソースにできます。他にオープンソースにできるか [GitHub Explore](https://github.com/explore) をチェックしてみましょう。
 
-### Does open source mean "free of charge"?
+### 「無料」とはどういうことか
 
-One of open source's biggest draws is that it does not cost money. "Free of charge", however, is a byproduct of open source's overall value.
+オープンソースの最大の魅力の一つがお金が掛からないことです。しかし「無料」はオープンソース全体の価値の副産物です。
 
-Because [an open source license requires](https://opensource.org/osd-annotated) that anyone can use, modify, and share your project for nearly any purpose, projects themselves tend to be free of charge. If the project cost money to use, anyone could legally make a copy and use the free version instead.
+[オープンソースライセンス](https://opensource.org/osd-annotated) はプロジェクトを誰でも殆ど全ての目的で使用、改変、配布できないといけないとしているので、プロジェクト自体が無料になりやすいのです。もしプロジェクトを使うのにお金を払わないといけないとしたら、誰でも合法的にコピーをして無料のバージョンを代わりに使えばいいことになります。
 
-As a result, most open source projects are free, but "free of charge" is not part of the open source definition. There are ways to charge for open source projects indirectly through dual licensing or limited features, while still complying with the official definition of open source.
+結果として殆どのオープンソースプロジェクトは無料ですが、「無料」はオープンソースの定義の一部ではありません。オープンソースの定義に従いながらもデュアルライセンスや機能の制限を通じて間接的に代金を請求する方法があります。
 
 ## Should I launch my own open source project?
 
@@ -73,7 +73,7 @@ Open source work is like any other creative activity, whether it's writing or pa
 
 If you're not yet convinced, take a moment to think about what your goals might be.
 
-### Setting your goals
+### ゴールを設定する
 
 Goals can help you figure out what to work on, what to say no to, and where you need help from others. Start by asking yourself,  _why am I open sourcing this project?_
 
@@ -105,7 +105,7 @@ If you need a dedicated budget or staffing for promotion, operations and maintai
   </p>
 </aside>
 
-### Contributing to other projects
+### 他人のプロジェクトに貢献する
 
 If your goal is to learn how to collaborate with others or understand how open source works, consider contributing to an existing project. Start with a project that you already use and love. Contributing to a project can be as simple as fixing typos or updating documentation.
 
@@ -128,7 +128,7 @@ As a maintainer, these components will help you communicate expectations, manage
 
 If your project is on GitHub, putting these files in your root directory with the recommended filenames will help GitHub recognize and automatically surface them to your readers.
 
-### Choosing a license
+### ライセンスを選ぶ
 
 An open source license guarantees that others can use, copy, modify, and contribute back to your project without repercussions. It also protects you from sticky legal situations. **You must include a license when you launch an open source project.**
 
@@ -142,7 +142,7 @@ When you create a new project on GitHub, you are given the option to select a li
 
 If you have other questions or concerns around the legal aspects of managing an open source project, [we've got you covered](../legal/).
 
-### Writing a README
+### README を書く
 
 READMEs do more than explain how to use your project. They also explain why your project matters, and what your users can do with it.
 
@@ -169,7 +169,7 @@ For more inspiration, try using @18F's ["Making READMEs Readable"](https://pages
 
 When you include a README file in the root directory, GitHub will automatically display it on the repository homepage.
 
-### Writing your contributing guidelines
+### コントリビューティングガイドを書く
 
 A CONTRIBUTING file tells your audience how to participate in your project. For example, you might include information on:
 
@@ -199,7 +199,7 @@ Link to your CONTRIBUTING file from your README, so more people see it. If you [
 
 ![Contributing guidelines](/assets/images/starting-a-project/Contributing-guidelines.jpg)
 
-### Establishing a code of conduct
+### 行動規範を定める
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mlynch?s=180" class="pquote-avatar" alt="avatar">
@@ -223,7 +223,7 @@ Paste the text directly into a CODE_OF_CONDUCT file in your repository. Keep the
 
 Branding is more than a flashy logo or catchy project name. It's about how you talk about your project, and who you reach with your message.
 
-### Choosing the right name
+### 適切な名前を選ぶ
 
 Pick a name that is easy to remember and, ideally, gives some idea of what the project does. For example:
 
@@ -234,7 +234,7 @@ If you're building upon an existing project, using their name as a prefix can he
 
 Consider clarity above all. Puns are fun, but remember that some jokes might not translate to other cultures or people with different experiences from you. Some of your potential users might be company employees: you don't want to make them uncomfortable when they have to explain your project at work!
 
-### Avoiding name conflicts
+### 名前の重複を避ける
 
 [Check for open source projects with a similar name](http://ivantomic.com/projects/ospnc/), especially if you share the same language or ecosystem. If your name overlaps with a popular existing project, you might confuse your audience.
 
@@ -246,7 +246,7 @@ You can check the [WIPO Global Brand Database](http://www.wipo.int/branddb/en/) 
 
 Finally, do a quick Google search for your project name. Will people be able to easily find your project? Does something else appear in the search results that you wouldn't want them to see?
 
-### How you write (and code) affects your brand, too!
+### 書き方 (コーディング作法) もブランドに影響する！
 
 Throughout the life of your project, you'll do a lot of writing: READMEs, tutorials, community documents, responding to issues, maybe even newsletters and mailing lists.
 
